@@ -1,0 +1,13 @@
+[[main]]
+    # Top-level menu entry
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 1
+
+[[main]]
+    # Top-level menu entry
+    identifier = "work"
+    name = "Work"
+    url = "/projects/"
+    weight = 2

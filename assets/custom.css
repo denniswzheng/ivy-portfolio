@@ -1,0 +1,50 @@
+/* Add custom CSS *//* Separate overrides for light and dark */
+:root {
+  --color-primary: #113946;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+/* Center image */
+/* .single-feature-img img{
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+
+.btn-primary{
+  border-radius: 8px;
+}
+
+.btn-secondary{
+  border-radius: 8px;
+}
+
+.project-entry{
+  transition: all .2s ease-in-out; 
+  overflow: hidden
+}
+
+.project-entry:hover{
+  transform: scale(1.05); 
+}
+
+.project-entry-title a {
+  text-decoration: underline;
+}
