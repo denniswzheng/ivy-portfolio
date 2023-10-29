@@ -16,6 +16,11 @@
     cursor: pointer;
   }
 
+  .nav-toggle.active {
+    transform: rotate(180deg); /* Optionally, rotate the toggle button icon when active */
+  }
+
+
   @include respond-to('m-large') {
     flex-direction: row; /* Horizontal nav on desktop */
     align-items: center;

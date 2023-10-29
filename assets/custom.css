@@ -43,8 +43,5 @@ body {
 
 .project-entry:hover{
   transform: scale(1.05); 
-}
-
-.project-entry-title a {
   text-decoration: underline;
 }
